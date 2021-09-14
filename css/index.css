@@ -2,11 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-p{
-    @apply text-lg;
-}
-
-li{
-    @apply text-lg;
-    @appyl: py-1;
-}
