@@ -1,19 +1,22 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function IndexPage() {
   return (
-    <div className="flex flex-col items-center justify-center space-y-12">
-      <Image
-        src="/team-of-critters.svg"
-        alt="Four one-eyed aliens playing"
-        width={576}
-        height={429.734}
-        priority
-      />
+    <div className="max-w-3xl py-12 mx-auto">
+      <section>
+        <h1 className="pb-3 text-3xl font-bold text-center">Hi, {"I'm"} Nick, a full-stack UX Designer.</h1>
+        <p className="pb-3 text-lg text-center font-regular">
+          I work across research, design, and development to create humane products. {" "} 
+          <Link href="/about"><a className="font-semibold">
+            More →
+            </a></Link></p>
+      </section>
 
-      <h2 className="p-3 font-bold bg-yellow-300 md:text-2xl">
-        Hi! Welcome to your first Next.js site.
-      </h2>
+      <section>
+      
+      </section>
+       
     </div>
   );
 }
