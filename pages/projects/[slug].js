@@ -1,5 +1,6 @@
 import { createClient } from 'contentful'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
+import Link from 'next/link';
 
 
 
@@ -9,7 +10,7 @@ export default function Slug({ caseStudy }) {
     return(
     <section className="max-w-3xl px-6 py-12 mx-auto">
       <div className="project">
-        <a href="/projects/" className="">Back to Projects</a>
+        <Link href="/projects/"><a>Back to Projects</a></Link>
         <h1 className="pt-5 text-4xl font-bold leading-tight ">{title}</h1>
         <p className="py-2 text-xl">{description}</p>
 
