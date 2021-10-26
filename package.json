@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/taylorbryant/next-starter-tailwind#readme",
   "dependencies": {
-    "@contentful/rich-text-react-renderer": "^15.3.6",
+    "@contentful/rich-text-react-renderer": "^15.5.1",
     "@tailwindcss/typography": "^0.4.1",
     "contentful": "^9.0.0",
     "next": "11.1.2",
